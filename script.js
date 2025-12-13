@@ -5,13 +5,25 @@
 // Ad esempio: anna => anna; otto => otto; ottetto => ottetto;
 
 //Richiesta inserimento parola:
+
 let parola = parseInt(prompt("Inserisci una parola"));
 
+
 //Prendo la parola inserita e verifico se è uguale alla parola inserita ma invertita:
+ 
+function invertiparola(parola){
 
-let parolaReverse = parola.reverse();
+   let parolaInvertita = "";
 
-console.log(parolaReverse);
+    for (let i = parola.length - 1; i >= 0; i--){
+        parolaInvertita = parolaInvertita + parola.charAt(i);        
+    }        
+
+    return parola;
+};
+
+
+
 
 
 
