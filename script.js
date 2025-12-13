@@ -6,23 +6,28 @@
 
 //Richiesta inserimento parola:
 
-let parola = parseInt(prompt("Inserisci una parola"));
-
-console.log(invertiparola);
+  let parola = parseInt(prompt("Inserisci una parola"));
+  console.log(parola);
 
 //Prendo la parola inserita e verifico se è uguale alla parola inserita ma invertita:
  
 function invertiparola(parola){
 
-   let parolaInvertita = "";
+    let parolaInvertita = "";
 
     for (let i = parola.length - 1; i >= 0; i--){
-        parolaInvertita = parola + parola.charAt(i);        
+        parolaInvertita = parolaInvertita + parola.charAt(i);        
     }        
 
     return parolaInvertita;
 };
 
+
+if (parola === invertiparola(parola)) {
+  console.log("La parola è palindroma");
+} else {
+  console.log("La parola NON è palindroma");
+}
 
 
 
