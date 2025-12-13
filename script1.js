@@ -8,6 +8,8 @@
 
 
 // Richiesta all'utente di scelta pari o dispari
+let sceltautente = prompt("Scegli tra pari o dispari");
 
-let sceltautente = prompt("Scegli tra pari o dispari")
+ // Richiesta all'utente di inserire un numero 
+ let sceltanumero = prompt("Scegli un numero da 1 a 5");
 
