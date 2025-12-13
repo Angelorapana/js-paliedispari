@@ -5,3 +5,9 @@
 // Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione) 
 // Dichiariamo chi ha vinto.
 
+
+
+// Richiesta all'utente di scelta pari o dispari
+
+let sceltautente = prompt("Scegli tra pari o dispari")
+
