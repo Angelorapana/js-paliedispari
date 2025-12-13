@@ -8,6 +8,7 @@
 
 let parola = parseInt(prompt("Inserisci una parola"));
 
+console.log(invertiparola);
 
 //Prendo la parola inserita e verifico se è uguale alla parola inserita ma invertita:
  
@@ -16,10 +17,10 @@ function invertiparola(parola){
    let parolaInvertita = "";
 
     for (let i = parola.length - 1; i >= 0; i--){
-        parolaInvertita = parolaInvertita + parola.charAt(i);        
+        parolaInvertita = parola + parola.charAt(i);        
     }        
 
-    return parola;
+    return parolaInvertita;
 };
 
 
