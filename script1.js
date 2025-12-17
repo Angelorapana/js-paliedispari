@@ -10,6 +10,13 @@
 // Richiesta all'utente di scelta pari o dispari
 let sceltautente = prompt("Scegli tra pari o dispari");
 
+if (sceltautente !== "pari" && sceltautente !== "dispari") {
+    console.log("Scelta non valida, per favore scegli 'pari' o 'dispari'");
+}
+
  // Richiesta all'utente di inserire un numero 
  let sceltanumero = prompt("Scegli un numero da 1 a 5");
+ if (sceltanumero < 1 || sceltanumero > 5) {
+    console.log("Numero non valido, per favore scegli un numero da 1 a 5");
+ }  
 
